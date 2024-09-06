@@ -68,6 +68,8 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 
 </ol>
 <hr>Program<\hr>
+
+  
 ```
 from collections import defaultdict, deque
 
@@ -101,8 +103,7 @@ path = []
 visited = defaultdict(bool)
 traversed_path = bfs(graph, start, visited, path)
 print("BFS Traversal Path:", traversed_path)
-
- ```
+```
 
 <hr>
 <h3>Sample Input</h3>
